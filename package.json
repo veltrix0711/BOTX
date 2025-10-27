@@ -1,0 +1,28 @@
+{
+  "name": "mp3-scraper-bot",
+  "version": "1.0.0",
+  "description": "Web scraping bot using n8n to gather MP3 files and names into a spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start --tunnel",
+    "install-n8n": "npm install -g n8n",
+    "setup": "npm run install-n8n && npm install"
+  },
+  "keywords": [
+    "n8n",
+    "web-scraping",
+    "mp3",
+    "automation",
+    "spreadsheet"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "n8n": "^1.28.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
